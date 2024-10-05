@@ -1,5 +1,6 @@
 .form {
     width: 400px;
+    box-shadow: 2px 2px 4px blue;
     border: 1px solid;
     border-radius: 6px;
     padding: 16px;
@@ -19,7 +20,7 @@
     border: none;
     border-radius: 6px;
     background-color:rgb(63, 11, 204);
-    padding: 16px 24px;
+    padding: 12px 16px;
     margin: 0 auto;
     &:hover {
         background-color: rgb(40, 6, 150);
@@ -42,6 +43,7 @@
 }
 .errMsg {
     color: red;
+    font-size: 16px;
     margin: 0;
     padding: 0;
 }
